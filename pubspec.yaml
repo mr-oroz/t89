@@ -1,0 +1,45 @@
+name: t89
+description: 'A new Flutter project.'
+publish_to: 'none' # Remove this line if you wish to publish to pub.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.3.beta <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  flutter_switch: ^0.3.2
+  dotted_border: ^2.1.0
+  image_picker: ^1.1.2
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  freezed: ^2.5.7
+  freezed_annotation: ^2.4.4
+  get_it: ^7.7.0
+  injectable: ^2.4.2
+  injectable_generator: ^2.6.1
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
